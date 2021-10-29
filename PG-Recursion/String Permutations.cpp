@@ -1,4 +1,7 @@
- void solve(string s, vector<string> &ans, int i)
+ class Solution{
+    public:
+    //Complete this function
+     void solve(string s, vector<string> &ans, int i)
     {
         if (i == s.size()-1)
         {
@@ -20,3 +23,4 @@
         sort(ans.begin(), ans.end());
         return ans;
     }
+};
